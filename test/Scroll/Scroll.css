@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ngh_header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #ccc;
+    top: 0;
+    left: 0px;
+    z-index: 99;
+}
+#ngh_header ul{
+    list-style-type: none;
+    
+    /* height: 40px; */
+    float: right;
+    padding-right: 30px;
+}
+#ngh_header ul li{
+    float: left;
+    
+    height: 100%;
+    width: 80px;
+    text-align: center;
+}
+#ngh_header ul li a{
+    text-decoration: none;
+    
+    color: black;
+    display: block;
+    line-height: 50px;
+}
+#ngh_header ul li:hover a{
+    background-color: white;
+    color: green;
+}
+#main{
+    
+}
+.ngh_page{
+    
+}
+#home{
+    margin-top: 100px;
+    
+    text-align: justify;
+    display: block;
+}
+#service{
+    text-align: justify;
+    
+    padding-left: 0px;
+    padding-top: 37px;
+    margin-top: 300px;
+}
+#about{
+    text-align: justify;
+    
+    margin-top: 300px;
+}
+#admin{
+    text-align: justify;
+    
+    margin-top: 300px;
+}
+#contact{
+    text-align: justify;
+    
+    margin-top: 300px;
+}
+.title_h1{
+    color: white;
+    
+    background-color: black;
+    /* margin-top: 100px; */
+}

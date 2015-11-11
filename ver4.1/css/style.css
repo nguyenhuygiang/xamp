@@ -1,0 +1,125 @@
+@font-face {
+    font-family: fontThaid;
+    src: url(../fonts/TH_Baijam_Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: fontThaid;*/
+    font-size: 16px;
+    line-height: 1.5em;
+}
+body{
+    background: url('../img/background-2.png' );
+   background-repeat: repeat-y;
+   background-size: cover;
+}
+.container-fluid{
+    max-width: 768px;
+}
+nav{
+    background: #810c15;
+    padding: 10px 0;
+}
+nav span.glyphicon-menu-hamburger{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+}
+.color-red{
+    color: #810c15;
+   
+}
+.bold{
+    font-weight: bold;
+}
+.size-super-lg{
+    font-size: 50px;
+}
+.size-lg{
+    font-size: 40px;
+}
+.size-normal{
+    font-size: 30px;
+}
+.size-small{
+    font-size: 22px;
+}
+.full-width{
+    width: 100%;
+}
+.mr-top-0{
+    margin-top: 0px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+.mr-0{
+    margin: 0;
+}
+.radius-0{
+    border-radius: 0;
+}
+.border-red{
+    border: 1px solid #810c15;
+}
+.bg-red{
+    background: #810c15;
+    color: #fff;
+}
+#form-dang-ky input::-webkit-input-placeholder {
+    color: #810c15;
+    font-style: italic;
+}
+
+#form-dang-ky input:-moz-placeholder { /* Firefox 18- */
+    color: #810c15;  
+    font-style: italic;
+}
+
+#form-dang-ky input::-moz-placeholder {  /* Firefox 19+ */
+    color: #810c15;  
+    font-style: italic;
+}
+
+#form-dang-ky input:-ms-input-placeholder {  
+    color: #810c15;  
+    font-style: italic;
+}
+.border-bottom-red{
+    border-bottom: 2px solid #810c15;
+}
+.pd-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pd-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.with-img{
+    width: 100%;
+    padding-top: 10px;
+}
+#gnh_button{
+    color: white;
+    
+    background-color: #810c15;
+    border-radius: 0 0 0 0;
+    padding: 5px 10px;
+    position: fixed;
+    -ms-transform: rotate(270deg);      -webkit-transform: rotate(270deg);      transform: rotate(270deg);
+    right: -43px;
+    top: 105px;
+    border: 0px;
+    z-index: 999;
+}
+#gnh_scroll{
+    z-index: 999;
+}

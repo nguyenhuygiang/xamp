@@ -1,0 +1,367 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+@font-face {
+    font-family: font-thai;
+    src: url("../fonts/TH BAIJAM BOLD.TTF");
+}
+body{
+    font-family: font-thai;
+    font-size: 20px !important;
+    min-width: 1170px;
+}
+
+.container{
+    min-width: 1170px;
+}
+.col-md-2-10{
+    width: 20%;
+}
+.full-width{
+    width: 100%;
+}
+.width-20{
+    width: 20px;
+}
+.ver-algin-base{
+    vertical-align: -4px;
+}
+.bg-red{
+    background: #810c15;
+    
+}
+.bg-transparent{
+    background: transparent;
+}
+.color-red{
+    color: #810c15;
+    text-decoration: none;
+}
+.color-white{
+    color: white;
+}
+.color-red:hover{
+    color: #810c15;
+    text-decoration: none;
+}
+.radius-0{
+    border-radius: 0;
+}
+.radius-35{
+    border-radius: 35px;
+}
+.size-super-lg {
+    font-size: 50px;
+}
+.size-lg{
+    font-size: 35px;
+}
+.size-supper-normal{
+    font-size: 25pt;
+}
+.size-normal{
+    font-size: 16pt;
+}
+.col-xs-2-10{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-bottom{
+    border-bottom: 2px solid #eee;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.border{
+    border: 1px solid #810c15;
+}
+.border-l-r-b{
+    border-left: 1px solid #810c15;
+    border-right: 1px solid #810c15;
+    border-bottom: 1px solid #810c15;
+}
+.border-t-bt{
+    border-top: 1px solid #810c15;
+    border-bottom: 1px solid #810c15;
+}
+.border-red-left{
+    border-top: 1px solid #810c15;
+    border-bottom: 1px solid #810c15;
+    border-right: 1px solid #810c15;
+    border-left: 15px solid #810c15;
+    background-color: #eceec6;
+}
+.border-while{
+    border-top: 1px solid white;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.nomal{
+    font-weight: normal;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-2{
+    line-height: 2em;
+}
+.line-1-5{
+    line-height: 1.5em;
+}
+.border-red{
+    border: 1px solid #810c15;
+}
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-30{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.margin-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.mr-top-15{
+    margin-top: 15px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+p{
+    font-size: 20pt;
+    line-height: 1.3em;
+}
+.mr-15{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.mr-20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mr-30{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mr-45{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.mr-0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mr-left-10{
+    margin-left: 10px; 
+}
+.mr-right-10{
+    margin-right: 10px;
+}
+ul li{
+    list-style: none;
+}
+.tick{
+    background: url("../img/logo trang copy 13.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 20px;
+    background-position-y: 10px;
+}
+/*...................................*/
+button#nav-top{
+    position: fixed;
+    top: 450px;
+    right: -44px;
+    z-index: 999;
+    border-radius:  5px 5px 0 0;
+    background: #810c15;
+    -ms-transform: rotate(270deg);/* IE 9 */
+    -webkit-transform: rotate(270deg);/* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+button#nav-top a{
+    color: #fff;
+    text-decoration: none;
+}
+/*......................................*/
+#step-nav div span{
+    padding: 5px 12px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.color-white{
+    color: #fff;
+}
+.btn-default{
+    color: #810c15;
+    font-size: 25px;
+}
+.btn{
+    border-radius: 0px;
+    padding: 8px 20px;
+}
+/*...................................form*/
+.btn-form{
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn-default-form{
+    color: white;
+    background-color: #810c15;
+    border-color: #ccc;
+    width: 260px;
+    height: 40px;
+    font-size: 25px;
+}
+.form-control{
+   
+    border-radius: 0;
+   
+}
+.form-group{
+  
+}
+.form-inline .form-control{
+    width: 260px;
+    height: 40px;
+    font-size: 18px;
+}
+#form{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.float-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.height{
+    height: 40px;
+}
+
+/*---------------------------------------*/
+/*#header ul li{
+    float:left;
+    text-align: right;
+}
+
+#header ul a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding: 10px 0 0 36px;
+    color: white;
+}
+
+#header ul a:hover{
+font-weight: bold;
+}*/
+
+#banner{
+    background: url("../img/banner_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:245px;
+}
+#word-banner{
+    position: absolute;
+    top: 130px;
+    left: 105px;
+}
+/*...........................student*/
+#students{
+    position: relative;
+    background: url("../img/student block1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+#p-student{
+    position: absolute;
+    top: 35px;
+    color: white;
+    left: 485px;
+}
+#p-student1{
+    margin-top: 145px;
+    margin-left: 105px;
+    /* left: 115px; */
+    background-color: #eceec6;
+    border-radius: 7px;
+}
+#p-student2{
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: #eceec6;
+    border-radius: 7px;
+    margin-bottom: 35px;
+}
+#student1{
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+#student2{
+    position: absolute;
+    right: 10px;
+    top: 250px;
+}
+/*.........................footer*/
+
+footer{
+    background: url("../img/Footer1.png");
+    background-size: cover;
+}
+
+#slide{
+    background: url("../img/brand.png");
+}
+.height{
+    height: 380px;
+}
+#number{
+    background: url("../img/number.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p_head{
+    font-size: 18px;
+}
+.padding-bottom-10{
+    padding-bottom: 30px;
+}

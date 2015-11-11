@@ -1,0 +1,75 @@
+/*#content .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}*/
+
+#content h4{
+    color: #810c15;
+}
+
+#content h4 a{
+    color: #810c15;
+    text-decoration: none;
+}
+
+#xem-them{
+    margin-top: 20px;
+}
+
+#noi-dung{
+    margin-top: 50px;
+}
+
+#img_39930{
+    //background: #fff;
+    height: 200px;
+}
+
+#img_39930 img{
+    width: 119%;
+    margin-left: -15px;
+    height: 100%;
+}
+
+#img_tin_tuc{
+    border: none;
+    height: 200px;
+}
+
+#img_tin_tuc img{
+    width: 120%;
+    margin-left: -15px;
+    height: 100%;
+}
+
+#btn-tuyen-dung {
+    border-radius: 50%;
+    background: #810c15;
+    color: #fff;
+}
+
+#btn-tuyen-dung a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#xem-them a{
+    color: #000;
+    text-decoration: none;
+}
+.breadcrumb li a{
+    color:#000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.breadcrumb >li+li:before{
+    padding: 0 20px;
+    content: url('../img/next-icon.png');
+    vertical-align: middle;
+}
+#tin-lien-quan li, a {
+    color: #810c15;
+}
+#tin-lien-quan li.active , li.active a{
+    color:#000;
+}

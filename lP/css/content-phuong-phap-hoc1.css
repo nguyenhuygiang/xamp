@@ -1,0 +1,34 @@
+.phuong-phap-hoc-p{
+    line-height: 30px;
+
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.phuong-phap-h3{
+    text-align: center;
+
+    font-weight: bold;
+    color: #810c15;
+    font-size: 30px;
+}
+.phuong-phap-h3-1{
+    text-align: center;
+    color: #810c15;
+}
+.phuong-phap-p1{
+    text-align: justify;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.phuong-phap-h3-2{
+    color: #810c15;
+}
+.col-md-2-10{
+    width: 20%;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.h3-1{
+    color: #810c15;
+    
+    text-align: center;
+}
+.h3-2{
+    color: #810c15;
+    
+    padding-top: 20px;
+}
+.conten-p{
+    font-family: myriad pro;
+    
+    font-size: 16px;
+    text-align: justify;
+}
+#conten-cac-khoa-hoc{
+    border-bottom: 1px solid #ccc;
+    
+}
+.conten-p-link{
+    color: black;
+    
+    margin-left: 26px;
+}
+.content-imglink{
+    float: left;
+    
+    position: relative;
+    padding-top: 3px;
+}
+#content-top{
+    border-bottom: 1px solid #ccc;
+    
+}
+#content-bottom{
+    
+}
+
+.content-img{
+    padding-top: 30px;
+    
+    padding-bottom: 20px;
+    width: 100%;
+}

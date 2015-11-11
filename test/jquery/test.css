@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    float: left;
+    margin: 30px 30px;
+    width: 65px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: burlywood;
+}
+#box{
+    clear: both;
+    background-color: green;
+    margin-left: 90px;
+    text-align: center;
+  
+}
+.normal{
+    width: 100px;
+    height: 100px;
+}
+.big{
+  width: 300px;
+  height: 300px;
+}
+.small{
+    width: 50px;
+    height: 50px;
+}
+

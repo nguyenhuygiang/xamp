@@ -1,0 +1,54 @@
+#content .container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.diem-uu-viet div a, #giao-vien a{
+    text-decoration: none;
+    color: #000;
+}
+.diem-uu-viet .col-xs-5 img{
+    width: 100%;
+}
+.diem-uu-viet{
+    margin-top: 30px;
+}
+#giao-vien > h4, #loi-ich > h4{
+    font-size: 25px;
+}
+#giao-vien > h5{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#giao-vien .col-xs-3 img{
+    width: 100%;
+}
+#giao-vien p, #loi-ich p, #diem-uu-viet p{
+    line-height: 2em;
+}
+.dashed-border{
+    border: dashed #810c15;
+    border-radius: 10px;
+}
+.col-6{
+    width: 48%;
+    display: inline-table;
+}
+.infor-tea{
+    color: #810c15;
+    font-size: 18px;
+    padding: 20px 0 24px 15px;
+    
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.cont-tea{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.tea-pos{
+    position: absolute;
+    top: -87px;
+    left: 40%;
+}

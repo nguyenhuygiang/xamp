@@ -1,0 +1,25 @@
+.tuyen-ding-img{
+    width: 100%;
+    
+    border: 1px solid #ccc;
+    height: 180px;
+}
+.tuyen-dung-h3{
+    color: #810c15;
+    
+    font-size: 20px;
+}
+.tuyen-dung-p{
+    text-align: justify;
+    
+}
+
+.tuyen-dung-p1{
+  margin-top: 38px;  
+  margin-left: 277px;
+}
+#tuyen-dung-p2{
+    margin-top: 16px;
+    
+    margin-left: 277px;
+}

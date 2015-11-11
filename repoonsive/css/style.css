@@ -1,0 +1,142 @@
+@font-face {
+    font-family: myriad;
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+body{
+     border-top: 2px solid #810c15;
+     font-family: myriad !important;
+}
+.col-md-2-10{
+    width: 25%;
+}
+.full-width{
+    width: 100%;
+}
+.bg-red{
+    background: #810c15;
+    color: #fff;
+}
+.bg-transparent{
+    background: transparent;
+}
+.color-red{
+    color: #810c15;
+    text-decoration: none;
+}
+.color-red:hover{
+    color: #810c15;
+}
+.radius-0{
+    border-radius: 0;
+}
+.radius-35{
+    border-radius: 35px;
+}
+.size-super-lg{
+    font-size: 45px;
+}
+.size-lg{
+    font-size: 35px;
+}
+.size-supper-normal{
+    font-size: 25px;
+}
+.size-normal{
+    font-size: 18px;
+}
+.col-xs-2-10{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-bottom{
+    border-bottom: 2px solid #810c15;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-2{
+    line-height: 2em;
+}
+.line-1-5{
+    line-height: 1.5em;
+}
+.border-red{
+    border: 1px solid #810c15;
+}
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+p{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.mr-20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mr-30{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mr-45{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.mr-0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+
+#step-nav div span{
+    padding: 5px 12px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+footer{
+    background: url("../img/bg_footer.png");
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.color-white{
+    color: #fff;
+}

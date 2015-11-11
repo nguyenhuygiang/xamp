@@ -1,0 +1,22 @@
+.giao-vien-h3-1{
+    color: #810c15;
+    
+    font-weight: bold;
+    text-align: center;
+}
+.giao-vien-h3-2{
+    padding-top: 20px;
+    
+    font-weight: normal;
+}
+.giao-vien-p{
+    text-align: justify;
+    
+}
+.giao-vien-img{
+    width: 100%;
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+

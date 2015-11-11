@@ -1,0 +1,45 @@
+#after-content{
+    margin-top: 50px;
+  //  margin-bottom: 30px;
+}
+#after-content button.btn{
+    background: transparent;
+    position: absolute;
+    top: 63%;
+    left: 57%;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 0px;
+    border-radius: 0;
+}
+#after-content button.btn a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.col-content{
+    position: relative;
+    padding: 15px;
+    padding-top: 55px;
+}
+.active-col-content{
+    border: 1px solid #810c15;
+}
+.col-content img{
+    position: absolute;
+    top: -56px;
+    left: 34%;
+    width: 110px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    border: 5px solid #fafafa;
+}
+.col-content h4, .col-content p{
+    line-height: 1.5em;
+}
+#content > div.row{
+    margin-top: 80px;
+}
+.as:hover{
+    border: 1px solid #810c15;
+}

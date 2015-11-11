@@ -1,0 +1,370 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+@font-face {
+    font-family: ufonts;
+    src: url("../fonts/ufonts.com_gotham-bold.ttf");
+}
+
+@font-face {
+    font-family: THSarabunNewBold;
+    src: url("../fonts/THSarabunNewBold.ttf");
+
+}
+body{
+   /* font-family: THSarabunNewBold !important;*/
+}
+.border-t-l-r{
+    border-left: 1px solid #810c15;
+    border-top: 1px solid #810c15;
+    border-right: 1px solid #810c15;
+}
+.link{
+    float: right;
+
+}
+.col-md-2-10{
+    width: 20%;
+}
+.full-width{
+    width: 100%;
+}
+.width-20{
+    width: 20px;
+}
+.bg-red{
+    background: #810c15;
+    color: #fff;
+}
+.bg-transparent{
+    background: transparent;
+}
+.color-red{
+    color: #810c15;
+    text-decoration: none;
+}
+.color-red:hover{
+    color: #810c15;
+    text-decoration: none;
+}
+.radius-0{
+    border-radius: 0;
+}
+.radius-35{
+    border-radius: 35px;
+}
+.size-super-lg {
+    font-size: 50px;
+}
+.size-lg{
+    font-size: 35px;
+}
+.size-supper-normal{
+    font-size: 25px;
+}
+.size-normal{
+    font-size: 18px;
+}
+.col-xs-2-10{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-bottom{
+    border-bottom: 2px solid #810c15;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.border-white{
+    border-top:solid white;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-2{
+    line-height: 2em;
+}
+.line-1-5{
+    line-height: 1.5em;
+}
+.border-red{
+    border: 1px solid #810c15;
+}
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.mr-top-15{
+    margin-top: 15px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+.mr-top-65{
+    margin-top: 65px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.synbol{
+    position: absolute;
+    top: 65px;
+    right: 103px;
+}
+.mr-20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mr-30{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mr-45{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.mr-0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+
+#step-nav div span{
+    padding: 5px 12px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.color-white{
+    color: #fff;
+}
+.btn-default{
+    color: #810c15;
+    font-size: 25px;
+}
+.btn{
+    border-radius: 0px;
+    padding: 8px 20px;
+}
+.btn-form{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn-default-form{
+    color: white;
+    background-color: #810c15;
+    border-color: #ccc;
+    font-size: 20px;
+}
+.form-control{
+    height: 45px;
+    border-radius: 0;
+    opacity: 0.6;
+    font-size: 16px;
+
+}
+#slide{
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*---------------------------------------*/
+#header{
+    padding-bottom: 10px;
+}
+#header ul li{
+    float:left;
+    text-align: right;
+}
+
+#header ul a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding: 10px 0 0 36px;
+    color: #810c15;
+}
+
+#header ul a:hover{
+font-weight: bold;
+}
+.height{
+    height: 299px;
+}
+/*...........................placehoder*/
+.content{
+    padding-left: 0px!important;
+
+}
+.content > div{
+    margin-top: 50px;
+}
+.content img{
+    width: 90%;
+    margin-top: 20px;
+}
+.content h2{
+    color: #810c15;
+}
+.content p{
+    width: 95%;
+    font-size: 20px;
+    color: #7f7f7f;
+}
+
+.pro{
+    margin-top: 70px;
+}
+.pro img{
+    width: 275px;
+    height: 450px;
+}
+#form2{
+    padding-left: 15px;
+}
+
+#form2 input{
+    border: 1px solid #810c15;
+    color: #810c15;
+}
+
+.red-border{
+    border-top: solid #810c15;
+    margin: 0 50px;
+    padding: 0 10px;
+}
+
+.short{
+    width: 110px!important;
+}
+
+.tb-lm td{
+    border: 1px solid #810c15;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact{
+    margin-top: 15px;
+}
+.contact p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.tb-choose{
+    width: 100%;
+}
+.tb-choose td{
+    border: 1px solid #ccc;
+}
+.tb-choose tr:nth-child(odd) >td:first-child{
+    background-color: #810c15;
+    color: #fff;
+    font-size: 60px;
+    padding: 5px 25px 5px 30px;
+}
+.tb-choose tr:nth-child(even) >td:first-child{
+    border-right: none!important;
+    background: -webkit-linear-gradient(#fff, #fff, #ccc);
+}
+.tb-choose tr:nth-child(even) >td:last-child{
+    border-left: none!important;
+    background: -webkit-linear-gradient(#fff, #fff, #ccc);
+}#fff,
+.tb-choose tr>td:last-child{
+    padding-left: 20px;
+    color: #7f7f7f;
+}
+.tb-choose tr>td:last-child p{
+        font-size: 20px;
+}
+.tb-choose tr>td:last-child p:first-child{
+       margin-top: 10px;
+}
+.tb-choose tr>td:last-child p label{
+        font-weight: normal;
+        line-height: 1em;
+}
+.bth{
+    color: #810c15;
+}
+input[type="radio"] {
+    background-color: #810c15;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-right: 15px;
+    position: relative;
+    width: 15px;
+    -webkit-appearance: none;
+}
+input[type="radio"]:after {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px #810c15;
+    content: '';
+    display: block;
+    height: 9px;
+    left: 3px;
+    position: relative;
+    top: 3px;
+    width: 9px;
+}
+input[type="radio"]:checked:after {
+    background-color: #f66;
+    box-shadow: 0 1px 1px #810c15;
+}
+.hidden{
+    display: none;
+}

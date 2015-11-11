@@ -1,0 +1,38 @@
+#content h4 a{
+    text-decoration: none;
+    color: #810c15;
+}
+
+#content h5 a{
+    color: #810c15;
+    margin-top: -3px;
+    text-decoration: none;
+}
+
+.chi-tiet a{
+    text-decoration: none;
+    color: #000;
+}
+
+.border-haft{
+    border-color: #810c15;
+}
+.breadcrumb li a,li{
+    color:#000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.breadcrumb >li+li:before{
+    padding: 0 20px;
+    content: url('../img/next-icon.png');
+    vertical-align: middle;
+
+}
+.title{
+    margin-bottom: 20px;
+    color: #810c15;
+}
+.mr-top-10{
+    margin-top: 10px;
+    
+}

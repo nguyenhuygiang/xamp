@@ -1,0 +1,264 @@
+
+/* CSS Document */
+.payment_list ul, li {
+	list-style: none;
+
+}
+
+.payment_list h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.payment_list h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.payment_list h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.payment_list h4 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.payment_list h5 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.payment_list .clr {
+	clear: both;
+}
+
+.payment_list .content {
+	padding: 5px;
+}
+
+/* Wrapper */
+.payment_list #wrapper {
+	width: 715px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.payment_list .nav {
+	width: 100%;
+	background: #006c9a;
+	height: 32px;
+}
+
+.payment_list .nav .nav_title {
+	line-height: 30px;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.payment_list .notice {
+	width: 715px;
+	margin: 10px auto;
+	background: #f8f7b1;
+	border-radius: 4px;
+	height: 32px;
+}
+
+.payment_list .notice .notice_content {
+	background: url(../images/notice_bg.png) left no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 30px;
+	font-size: 11px;
+	height: 32px;
+	line-height: 30px;
+}
+
+.payment_list {
+	margin: 15px;
+	width: 100%;
+}
+.payment_list .customer_info{
+	border-bottom: 1px #ccc dotted;
+}
+.payment_list .customer_info .dl-horizontal{
+	margin-top: 10px;
+}
+.payment_list .customer_info dt{
+	font-weight: normal;
+	font-size: 13px;
+	width: 115px;
+	padding-top: 5px;
+}
+.payment_list .customer_info dd {
+	margin-left: 125px;
+}
+.payment_list .customer_info input{
+	box-shadow:none;
+	border-radius: 2px;
+	height: 25px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	line-height: 24px;
+}
+.payment_list #select_payment .method {
+	padding: 15px 0;
+	border-bottom: 1px #ccc dotted;
+	display: inline-block;
+	width: 715px;
+	position: relative;
+}
+.payment_list #select_payment .method:first-child{
+	border-top: 1px #ccc dotted;
+}
+.payment_list #select_payment .method:hover, .payment_list #select_payment .method:focus, .payment_list #select_payment .method.selected {
+	/*background: #e7f4fc;*/
+}
+
+.payment_list #select_payment .icon {
+	width: 50px;
+	height: auto;
+	float: left;
+	display: inline-block;
+}
+
+.payment_list #select_payment .icon img {
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+.payment_list #select_payment .info {
+	width: 665px;
+	float: left;
+}
+
+.payment_list #select_payment .method .check_box {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.payment_list #select_payment .method .check_box {
+	width: 30px;
+	height: 30px;
+	background: url(../images/check_pay.jpg) 0 0 no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.payment_list #select_payment .method .checked_box {
+	background: url(../images/checked_pay.jpg) 0 0 no-repeat !important;
+}
+
+.payment_list .title {
+	font-weight: bold;
+	padding-right: 10px;
+	display: block;
+	font-size: 13px;
+	color: #1db453;
+}
+.payment_list .method .title {
+	color: inherit ;
+}
+.payment_list  .desc {
+	padding-right: 10px;
+	display: block;
+	color: #777
+}
+
+.payment_list .bank_list {
+	margin-top: 0px;
+	clear: both;
+}
+
+.payment_list .bank_list #b_l li {
+	float: left;
+	width: 60px;
+	margin: 10px 10px 0px 0;
+	border-bottom: none;
+	padding: 0 !important;
+}
+
+.payment_list .event, .tut {
+	height: 15px;
+	padding-left: 20px;
+	margin-top: 5px;
+	display: inline-block;
+	margin: 5px 5px 5px 0;
+}
+
+.payment_list .event {
+	color: #da0000;
+	background: url(../images/event.png) left no-repeat;
+}
+
+.payment_list .tut {
+	background: url(../images/tut.png) left no-repeat;
+}
+
+.payment_list .bk_logo {
+	position: absolute;
+	top: 10px;
+	left: 310px;
+}
+
+.payment_list .pm_submit {
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+}
+
+.payment_list .pm_submit:hover {
+
+}
+
+.payment_list .submit {
+	margin: 20px 0 0;
+	width: 100%;
+	text-align: center;
+}
+
+.payment_list .img-active {
+	border: 2px solid blue !important
+}
+
+.payment_list .img-bank {
+	border: 2px solid white
+}
+
+.payment_list div .selected {
+	background-color: #e8f4fb;
+}
+
+.payment_list ul#bl li img {
+	padding: 3px 3px 3px 3px;
+}
+
+.payment_list .payment-mode {
+	display: block;
+	margin: 15px 23px 0px 0px;
+	float: left
+}
+
+.payment_list .desc-mode {
+	font-size: 13px;
+	font-weight: bold
+}
+
+.payment_list #daykeep {
+	display: none;
+	margin-top: 10px;
+}
+
+.payment_list .info1 {
+	display: none;
+}

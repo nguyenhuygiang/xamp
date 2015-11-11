@@ -1,0 +1,45 @@
+#border-top{
+    border-bottom: 2px solid #ccc;
+    margin-top: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#content .container{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+#content .btn{
+    /*height: 17%;*/
+    line-height: 30pt;
+    font-size: 14pt;
+    color: #fff;
+    background-color: #810c15;
+}
+
+#step-row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#step-number{
+    font-size: 50pt;
+    color: #810c15;
+    margin-top: -18px;
+}
+
+#step-title{
+    color: #810c15;
+    margin-bottom: -15px;
+}
+
+#hr-haft{
+    border-color: #810c15;
+    margin-top: -1px;
+}
+
+#step-content{
+    border-radius: 3px;
+    border: 1px solid #999;
+    margin-left: -17px;
+    background: #ccc;
+}

@@ -1,0 +1,28 @@
+#content .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.diem-uu-viet div a, #giao-vien a{
+    text-decoration: none;
+    color: #000;
+}
+.diem-uu-viet .col-xs-5 img{
+    width: 100%;
+}
+.diem-uu-viet{
+    margin-top: 30px;
+}
+#giao-vien > h4, #loi-ich > h4{
+    font-size: 25px;
+}
+#giao-vien > h5{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+#giao-vien .col-xs-3 img{
+    width: 100%;
+}
+#giao-vien p, #loi-ich p, #diem-uu-viet p{
+    line-height: 2em;
+}

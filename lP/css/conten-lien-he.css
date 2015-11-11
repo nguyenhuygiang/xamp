@@ -1,0 +1,62 @@
+.lien-he-p{
+    text-align: center;
+    
+    font-family: segoe ui;
+    font-size: 16px;
+}
+#img-bangkok{
+   
+    
+    margin-top: 30px;
+    width: 100%;
+}
+#img-hoguom{
+    
+    
+    margin-top: 30px;
+    width: 100%;
+}
+#img-singapor{
+   
+    
+    margin-top: 30px;
+    width: 100%;
+}
+#imgnhatho{
+    
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#h3-bangkok{
+    text-align: center;
+    
+    color: #810c15;
+    font-family: myriad pro;
+    padding-top: 30px;
+}
+#h3-hn{
+    text-align: center;
+    
+    color: #810c15;
+    font-family: myriad pro;
+    padding-top: 30px;
+}
+#h3-singapor{
+    text-align: center;
+    
+    color: #810c15;
+    font-family: myriad pro;
+    padding-top: 30px;
+}
+#h3-hcm{
+    text-align: center;
+    
+    font-family: myriad pro;
+    color: #810c15;
+    padding-top: 30px;
+}
+#content-lienhe{
+  border-bottom: 2px solid #ccc;  
+}

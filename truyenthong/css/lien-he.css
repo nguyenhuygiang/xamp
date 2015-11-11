@@ -1,0 +1,38 @@
+*{
+    font-size: 13pt;
+}
+
+#lien-he-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#lien-he-container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#content hr{
+    border-color: #ccc;
+}
+
+#content .col-content{
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+
+#content h4{
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+#content h5{
+    color: #810c15;
+    font-weight: bold;
+}
+
+#content img{
+    width: 100%;
+}
